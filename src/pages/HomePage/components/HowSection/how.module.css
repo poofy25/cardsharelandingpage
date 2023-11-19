@@ -1,0 +1,50 @@
+.howSection{
+    width: 90%;
+    background-color: transparent;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+}
+.howSection > article {
+    background-color: #f7f7f7;
+    width: 30%;
+    aspect-ratio: 1;
+    border-radius: 24px;
+    padding: 1rem;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 32px 16px rgba(0,0,0,0.05);
+   position: relative;
+}
+
+.howSection > article > div {
+    background-color: rgba(255,255,255,0.8);
+    width: 15%;
+    aspect-ratio: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    border: 1px solid black;
+    font-weight: bolder;
+}
+
+.howSection > article > img {
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 24px;
+    object-fit: cover;
+}
+.howSection > article > h3 {
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.howSection > article > p {
+    color: rgba(0,0,0,0.5);
+    font-weight: 300;
+}

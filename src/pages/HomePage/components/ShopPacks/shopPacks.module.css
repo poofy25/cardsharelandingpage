@@ -1,0 +1,128 @@
+.shopPacksSection{
+    width: 90vw;
+    flex: 1;
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.shopPacksWrapper {
+    display: flex;
+    min-height: min-content;
+}
+
+.shopPacksWrapper {
+    scrollbar-width: thin;
+    scrollbar-color: #757575 #F7F7F7;
+}
+  
+  /* Chrome, Edge and Safari */
+  .shopPacksWrapper::-webkit-scrollbar {
+    
+    height: 8px;
+    width: 8px;
+  }
+  .shopPacksWrapper::-webkit-scrollbar-track {
+    border-radius: 20px;
+    background-color: #F7F7F7;
+  }
+  
+  .shopPacksWrapper::-webkit-scrollbar-track:hover {
+    background-color: #B8C0C2;
+  }
+  
+  .shopPacksWrapper::-webkit-scrollbar-track:active {
+    background-color: #B8C0C2;
+  }
+  
+  .shopPacksWrapper::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: #757575;
+  }
+  
+  .shopPacksWrapper::-webkit-scrollbar-thumb:hover {
+    background-color: #4A4A4A;
+  }
+  
+  .shopPacksWrapper::-webkit-scrollbar-thumb:active {
+    background-color: #4A4A4A;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shopPacksWrapper > article {
+    cursor: pointer;
+    width: 29vw;
+    margin: 0.75vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    display:inline-block;
+    aspect-ratio: 1;
+    background-color: #f7f7f7;
+    border-radius: 24px;
+    padding: 1rem;
+    box-sizing: border-box;
+    /* box-shadow: 0px 0px 32px 16px rgba(0,0,0,0.05); */
+   position: relative;
+
+   display: flex;
+   flex-wrap: wrap;
+}
+.shopPacksWrapper > article:first-child{
+    margin-left: 0;
+}
+.shopBashopPacksWrappersics > article:last-child{
+    margin-right: 0vw;
+}
+
+
+.shopPacksWrapper > article > h2{
+    font-size: 1.5rem;
+    min-width: 50%;
+    color: white;
+    margin: 0;
+    margin-left: 1.5rem;
+    text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000;
+    margin: 0;
+    align-self: center;
+}
+
+.shopPacksWrapper > article > div {
+    align-self: center;
+    margin-left: auto;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 99px;
+    padding: 0.25rem;
+    font-weight: bolder;
+    box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.1);
+}
+.shopPacksWrapper > article > h1{
+    font-size: 1.75rem;
+    margin: 1rem;
+    margin-left: 0;
+}
+.shopPacksWrapper > article > p {
+    margin: 0;
+    font-weight: 300;
+    color: rgba(0,0,0,0.75);
+}
+.shopPacksWrapper > article > img {
+    width: 100%;
+    object-fit: cover;
+}
