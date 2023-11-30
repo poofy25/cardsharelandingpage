@@ -16,3 +16,12 @@
     margin-left: 5vw;
     font-size: 2rem;
 }
+
+.homePage > marquee {
+    font-weight: 900;
+    font-size: 2rem;
+    font-style: italic;
+    margin: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+}

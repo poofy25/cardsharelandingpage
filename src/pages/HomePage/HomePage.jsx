@@ -10,8 +10,11 @@ import ShopBasics from "./components/ShopSection/ShopBasics";
 import ShopPacks from "./components/ShopPacks/ShopPacks";
 import ShopCustom from "./components/ShopCustom/ShopCustom";
 
+import Footer from "../../components/Footer/Footer";
+
 function HomePage() {
     return ( 
+        <>
         <div className={styles.homePage}>
             <HeroSection/>
             <AdvantagesSection/>
@@ -32,8 +35,10 @@ function HomePage() {
             <div id='personalizeaza' className={styles.header}><h1>Magazin de comandă.</h1></div>
 
             <ShopCustom/>
-          
+            <marquee scrollamount='15'>O NOUĂ MODALITATE DE A CREEA CONEXIUNI.</marquee>
         </div>
+        <Footer/>
+    </>
      );
 }
 

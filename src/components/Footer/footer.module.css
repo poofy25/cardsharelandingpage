@@ -1,0 +1,44 @@
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.linksSection{
+    display: flex;
+ 
+    width: 50%;
+    align-items: start;
+    justify-content: space-between;
+}
+.linksSection > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.linksSection > div > p {
+    font-size: 1.25rem;
+    font-weight: 900;
+    opacity: 0.5;
+}
+.linksSection > div > a {
+    text-decoration: none;
+    color: white;
+    margin: 0.25rem;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+}
+.linksSection > div > a > img {
+    margin-right: 0.25rem;
+}
+
+
+.infoSection > p {
+    opacity: 0.5;
+}

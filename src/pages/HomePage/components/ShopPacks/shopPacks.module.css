@@ -67,7 +67,7 @@
     margin-bottom: 0;
     display:inline-block;
     aspect-ratio: 1;
-    background-color: #f7f7f7;
+    background-color: white;
     border-radius: 24px;
     padding: 1rem;
     box-sizing: border-box;
@@ -76,6 +76,8 @@
 
    display: flex;
    flex-wrap: wrap;
+   align-items: stretch;
+   justify-content: center;
 }
 .shopPacksWrapper > article:first-child{
     margin-left: 0;
@@ -116,13 +118,16 @@
     font-size: 1.75rem;
     margin: 1rem;
     margin-left: 0;
+    width: 100%;
 }
 .shopPacksWrapper > article > p {
     margin: 0;
     font-weight: 300;
     color: rgba(0,0,0,0.75);
+    width: 100%;
 }
 .shopPacksWrapper > article > img {
-    width: 100%;
+    width: 75%;
+    aspect-ratio: 1;
     object-fit: cover;
 }
